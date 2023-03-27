@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+
+% \title{circuitikz-demodemo}
+
+\begin{document}
+
+% \maketitle
+
+    \begin{figure}
+        \centering
+        \begin{circuitikz}
+            \draw[white] (0,0) to[V=1V] (0,2)
+            to[R=$1\Omega$] (2,2)
+            to[C=1F] (2,0) -- (0,0);
+        \end{circuitikz}
+
+    \end{figure}
+
+\end{document}
